@@ -95,11 +95,12 @@ section#ficha h1 {
   text-align: center;
 }
 
-section#ficha p{
+section#ficha p {
   text-align: justify;
   text-indent: 20px;
   line-height: 1.5em;
   padding: 0 25px;
+
 }
 
 div#social {
@@ -107,6 +108,29 @@ div#social {
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
-  gap: 1.5em;
+  gap: 1em;
   margin-top: 15px;
+}
+
+section#detelhes {
+  grid-template-columns: 2;
+}
+
+article {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 16/9;
+  border: 5px solid red;
+}
+
+.video-container iframe {
+  position: absolute;   
 }
