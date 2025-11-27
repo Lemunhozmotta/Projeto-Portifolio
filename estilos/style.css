@@ -17,12 +17,21 @@
 }
 
 :root {
-  --fundo-principal: #f5f5f5;
+  --fundo-principal: #c0c0c0;
   --texto: #222222;
   --texto-inverso: #ffffff;
-  --destaque: #0077ff;
-  --destaque-inverso: #66bbff;
+  --destaque: #6f00ff;
+  --destaque-inverso: #a366ff;
   --fundo-card: #ffffff;
+}
+
+body.escuro {
+  --fundo-principal: #1c1c1c;
+  --texto: #ffffff;
+  --texto-inverso: #000000;
+  --destaque: #21ac09;
+  --destaque-inverso: #66ff9c;
+  --fundo-card: #494949;
 }
 
 body {
