@@ -271,7 +271,7 @@ footer {
 
 
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 620px) and (max-width: 1315px) {
 
   main {
     grid-template-columns: auto 300px 1fr auto;
