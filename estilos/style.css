@@ -316,3 +316,32 @@ footer {
   
 }
 
+@media screen and (min-width:1160px) {
+  section#detalhes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1r;
+    gap: 10px;
+  }
+
+  #video {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+
+  #skill {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  #formacao {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+
+  #projetos {
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+  }
+  
+}
